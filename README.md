@@ -13,8 +13,8 @@
   - [JavaScript](https://www.javascript.com/);
   - [MongoDB](https://www.mongodb.com);
   - [Canvas](https://canvas.instructure.com/doc/api/);
-- Indicação de Servidor Discord p/ [Network](https://discord.gg/ASwuvJr);
-- Indicação de Servidor p/ [Hospedagem](https://discloudbot.com/);
+- Indicação de [Servidor Discord](https://discord.gg/ASwuvJr) p/ Network;
+- Indicação de Site/Servidor p/ [Hospedagem](https://discloudbot.com/);
 
 ______
 
