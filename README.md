@@ -14,7 +14,7 @@
   - [MongoDB](https://www.mongodb.com);
   - [Canvas](https://canvas.instructure.com/doc/api/);
 - Indicação de [Servidor Discord](https://discord.gg/ASwuvJr) p/ Network;
-- Indicação de Site/Servidor p/ [Hospedagem](https://discloudbot.com/);
+- Servidor da [Melhor De Três] p/ [Hospedagem](https://discloudbot.com/);
 
 ______
 
