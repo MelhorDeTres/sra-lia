@@ -13,12 +13,10 @@
   - [JavaScript](https://www.javascript.com/);
   - [MongoDB](https://www.mongodb.com);
   - [Canvas](https://canvas.instructure.com/doc/api/);
-- Indicação de [Servidor Discord](https://discord.gg/ASwuvJr) p/ Network;
-- Indicação de Site/Servidor p/ [Hospedagem](https://discloudbot.com/);
-- Como [rodar em sua máquina](SETBOT.md)
-______
-
-<br>
+- Como [rodar em sua máquina](SETBOT.md);
+- Tabela de [comandos](COMANDOS.md) da Sra. Lia;
+- Indicação de [Servidor Discord](https://discord.gg/ASwuvJr) para network;
+- Indicação de hospedagem na [DisCloud](https://discloudbot.com/);
 
 ## :octocat: License
 
