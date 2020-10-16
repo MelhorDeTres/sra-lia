@@ -20,7 +20,7 @@ function ehSalaDeTextoParaBot(message) {
 }
 
 async function setMembro(message, dadosUser) {
-    if (!message.member.roles.some(r=>["Staff", "Programador", "Mídia"].includes(r.name))) {
+    if (!message.member.roles.some(r=>["635179356041379869", "638512270917369868", "Mídia"].includes(r.id))) {
         try {
             await message.member.addRole('656595725794148383');
             let newNick = 'MD3 ' + message.author.username;
@@ -66,7 +66,8 @@ async function opcoesCargos(message, cargo, mentionedUser) {
 }
 
 async function setNewPlayer(message, cargo, user) {
-    if (message.member.roles.some(r=>["Staff"].includes(r.name))) {
+    // Necessário ser Admin
+    if (message.member.roles.some(r=>["635179356041379869"].includes(r.id))) {
             await user.addRole(cargo);
             await embedsServerEntities.agoraEhPlayer(message, user);
     } else {
@@ -75,7 +76,8 @@ async function setNewPlayer(message, cargo, user) {
 }
 
 async function setNewMod(message, cargo, user) {
-    if (message.member.roles.some(r=>["Staff"].includes(r.name))) {
+    // Necessário ser Admin
+    if (message.member.roles.some(r=>["635179356041379869"].includes(r.id))) {
             await user.addRole(cargo);
             let newNick = 'ADM ' + user.user.username
             await user.setNickname(newNick);
@@ -86,7 +88,8 @@ async function setNewMod(message, cargo, user) {
 }
 
 async function setNewMidia(message, cargo, user) {
-    if (message.member.roles.some(r=>["Staff"].includes(r.name))) {
+    // Necessário ser Admin
+    if (message.member.roles.some(r=>["635179356041379869"].includes(r.id))) {
             await user.addRole(cargo);
             let newNick = 'MID ' + user.user.username;
             await user.setNickname(newNick);
@@ -97,8 +100,9 @@ async function setNewMidia(message, cargo, user) {
 }
 
 async function setNewDev(message, cargo, user) {
-    if ((message.member.roles.some(r=>["Staff"].includes(r.name)) || 
-            message.member.roles.some(r=>["Programador"].includes(r.name)))) {
+    // Necessário ser Admin ou Dev
+    if ((message.member.roles.some(r=>["635179356041379869"].includes(r.id)) || 
+            message.member.roles.some(r=>["638512270917369868"].includes(r.id)))) {
             await user.addRole(cargo);
             let newNick = 'DEV ' + user.user.username;
             await user.setNickname(newNick);
@@ -124,16 +128,16 @@ function createNewNick(message) {
 }
 
 async function setNewNickname(message, newNick) {
-    if (message.member.roles.some(r=>["Staff"].includes(r.name))) {
+    if (message.member.roles.some(r=>["635179356041379869"].includes(r.id))) {
         let nickWithRole = 'ADM ' + newNick;
         await message.member.setNickname(nickWithRole);
-    } else if (message.member.roles.some(r=>["Programador"].includes(r.name))) {
+    } else if (message.member.roles.some(r=>["638512270917369868"].includes(r.id))) {
         let nickWithRole = 'DEV ' + newNick;
         await message.member.setNickname(nickWithRole);
-    } else if (message.member.roles.some(r=>["Mídia"].includes(r.name))) {
+    } else if (message.member.roles.some(r=>["667389386685677578"].includes(r.id))) {
         let nickWithRole = 'MID ' + newNick;
         await message.member.setNickname(nickWithRole);
-    } else if (message.member.roles.some(r=>["Membro", "Player"].includes(r.name))) {
+    } else if (message.member.roles.some(r=>["656595725794148383", "705040415216238593"].includes(r.id))) {
         let nickWithRole = 'MD3 ' + newNick;
         await message.member.setNickname(nickWithRole);
     }
