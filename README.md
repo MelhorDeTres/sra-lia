@@ -6,6 +6,8 @@
   compreensão e desenvolvimento qualificado de uma aplicação pessoal nos Servidores Discord.
 </p>
 
+<img src="https://img.shields.io/github/contributors/MelhorDeTres/sra-lia?style=flat-square"> <img src="https://img.shields.io/github/last-commit/MelhorDeTres/sra-lia?style=flat-square"> <img src="https://img.shields.io/github/languages/top/MelhorDeTres/sra-lia?style=flat-square">
+
 ## :triangular_flag_on_post: Informações
 
 - UML (21/07/2020) <a href="/.github/uml.png">aqui</a>.
