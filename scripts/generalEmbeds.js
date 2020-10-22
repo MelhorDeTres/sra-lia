@@ -14,29 +14,34 @@ async function dicasBemVindo(member) {
     avatar: user.displayAvatarURL
   }
   let embed = {
-      "title": `${dadosUser.nick}`,
-      "url": `${dadosUser.urlSteam}`,
-      "color": 128994,
-      "description": "No Chat <#709906204146794616>",
-      "footer": {
-        "icon_url": "https://imgur.com/sSIyIte.png",
-        "text": "Melhor de todas, Melhor de Três"
+    "title": `${dadosUser.nick}`,
+    "url": `${dadosUser.urlSteam}`,
+    "color": 128994,
+    "description": `Para se registrar, pelo Chat <#709906204146794616>,
+    copie o Link de seu perfil Steam e use os comandos a seguir:`,
+    "footer": {
+      "icon_url": "https://imgur.com/sSIyIte.png",
+      "text": "Melhor de todas, Melhor de Três"
+    },
+    "thumbnail": {
+      "url": `${dadosUser.avatar}`
+    },
+    "author": {
+      "name": `Olá, seja bem-vindo a MD3, a Melhor Comunidade Gamer.`,
+      "icon_url": "https://imgur.com/Jr3fWGy.jpg"
+    },
+    "fields": [
+      {
+        "name": "Exemplo 1",
+        "value": '`Bot registrar https://steamcommunity.com/id/.../`'
       },
-      "thumbnail": {
-        "url": `${dadosUser.avatar}`
-      },
-      "author": {
-        "name": `Olá, seja bem-vindo a MD3, a Melhor Comunidade Gamer.`,
-        "icon_url": "https://imgur.com/Jr3fWGy.jpg"
-      },
-      "fields": [
-        {
-          "name": "Para acesso interno utilize o comando:",
-          "value": '`Bot registrar`'
-        }
-      ]
-    };
-
+      {
+        "name": "Exemplo 2",
+        "value": '`Bot registrar https://steamcommunity.com/profiles/`'
+      }
+    ]
+  };
+  
   await member.send({ embed });
 }
 
