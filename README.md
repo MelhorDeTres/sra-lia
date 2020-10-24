@@ -6,7 +6,10 @@
   compreensão e desenvolvimento qualificado de uma aplicação pessoal nos Servidores Discord.
 </p>
 
-<img src="https://img.shields.io/github/contributors/MelhorDeTres/sra-lia?style=flat-square"> <img src="https://img.shields.io/github/last-commit/MelhorDeTres/sra-lia?style=flat-square"> <img src="https://img.shields.io/github/languages/top/MelhorDeTres/sra-lia?style=flat-square">
+<p align="center">
+  <img src="https://img.shields.io/github/contributors/MelhorDeTres/sra-lia?style=flat-square"> <img src="https://img.shields.io/github/last-commit/MelhorDeTres/sra-lia?style=flat-square"> <img src="https://img.shields.io/github/languages/top/MelhorDeTres/sra-lia?style=flat-square"> <img src="https://img.shields.io/discord/635170515937656833?label=chat%20discord&style=flat-square">
+ </p>
+ 
 
 ## :triangular_flag_on_post: Informações
 
