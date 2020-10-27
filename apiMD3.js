@@ -20,6 +20,16 @@ async function execute(message) {
     // 635170515937656835 = ID do Chat de Texto: assinaturas
     if (message.channel.id === '635170515937656835') return;
     if (message.author.bot) return;
+    if (message.channel.type === 'dm') {
+        // await message.reply("\n\n**Para usar algum comando no Bot**\nUtilize o Chat <#709906204146794616>.");
+        // await message.react("☑️");
+        return;
+    }
+    if (message.content.includes('https://discord.gg/')) {
+        message.author.send(`**Olá, ${message.author.username}.**\n\nNosso Servidor não aceita compartilhamento de Links para outros Servidores.\nTente compartilhar no privado. 😉`);
+        message.delete();
+        return;
+    }
 
     let parts = message.content.split(" ");
     let chamadaBot = parts[0].toLowerCase();
