@@ -1,5 +1,4 @@
 module.exports = {
-    dicasSemCargo,
     confirmNewMember,
     agoraEhPlayer,
     agoraEhMod,
@@ -9,37 +8,6 @@ module.exports = {
 
 /* Embeds relacionados a Confirmação de novos Cargos e Nomes */
 
-async function dicasSemCargo(message) {
-  let dadosUser = {
-      nick: message.author.username,
-      urlSteam: "https://steamcommunity.com/groups/MelhorDeTres",
-      avatar: message.author.displayAvatarURL
-      }
-  let embed = {
-      "title": `${dadosUser.nick}`,
-      "url": `${dadosUser.urlSteam}`,
-      "color": 128994,
-      "footer": {
-        "icon_url": "https://imgur.com/sSIyIte.png",
-        "text": "Melhor de todas, Melhor de Três"
-      },
-      "thumbnail": {
-        "url": `${dadosUser.avatar}`
-      },
-      "author": {
-        "name": `Olá, seja bem-vindo a MD3, a Melhor Comunidade Gamer.`,
-        "icon_url": "https://imgur.com/Jr3fWGy.jpg"
-      },
-      "fields": [
-        {
-          "name": "Para acesso interno utilize o comando:",
-          "value": '```Bot registrar```'
-        }
-      ]
-    };
-
-    await message.author.send({embed});
-}
 
 async function confirmNewMember(message, dadosUser) {
   let embed = {
