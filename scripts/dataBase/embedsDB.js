@@ -86,7 +86,8 @@ async function dicaRegistrarPerfil(message) {
   }
   let embed = {
     "title": `${dadosUser.nick}`,
-    "description": "Utilize o Chat <#709906204146794616>",
+    "description": `Para se registrar, pelo Chat <#709906204146794616>,
+    copie o Link de seu perfil Steam e use os comandos a seguir:`,
     "url": `${dadosUser.urls.urlSteam}`,
     "color": 128994,
     "footer": {
@@ -97,15 +98,11 @@ async function dicaRegistrarPerfil(message) {
       "url": `${dadosUser.avatar}`
     },
     "author": {
-      "name": `Para registrar-se no Servidor:`,
+      "name": `Você ainda não esta registrado no servidor.`,
       "icon_url": "https://imgur.com/Jr3fWGy.jpg"
     },
     "timestamp": new Date(),
     "fields": [
-        {
-          "name": "Utilize o comando:",
-          "value": "`Bot registrar SuaUrlSteam`"
-        },
         {
           "name": "Exemplo 1:",
           "value": "`Bot registrar https://steamcommunity.com/id/.../`"
