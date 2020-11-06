@@ -20,7 +20,8 @@ function ehSalaDeTextoParaBot(message) {
 }
 
 async function setMembro(message, dadosUser) {
-    if (!message.member.roles.some(r=>["635179356041379869", "638512270917369868", "Mídia"].includes(r.id))) {
+    // ID's de Cargos MOD, DEV e Mídia
+    if (!message.member.roles.some(r=>["635179356041379869", "638512270917369868", "667389386685677578"].includes(r.id))) {
         try {
             await message.member.addRole('656595725794148383');
             let newNick = 'MD3 ' + message.author.username;
