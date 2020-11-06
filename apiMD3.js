@@ -107,8 +107,10 @@ async function dbAndEntitiesFunctions(message, comandoBase, adicional) {
                 await dbManipulation.dicaAtualizarSteam(message, dadosUser);
             } else {
                 await dbManipulation.registerMember(message, urlSteam);
-                let dadosNewUser = await dbManipulation.getUser(message)
-                await serverEntities.setMembro(message, dadosNewUser);
+                let dadosNewUser = await dbManipulation.getUser(message);
+                if (dadosNewUser !== null) {
+                    await serverEntities.setMembro(message, dadosNewUser);
+                }
             }
             await message.react("☑️");
             return true;
