@@ -106,3 +106,5 @@ dist
 # MD3 files
 config.json
 README.md
+/documentacao
+LICENSE.txt
