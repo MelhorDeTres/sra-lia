@@ -1,21 +1,21 @@
 module.exports = {
-    execute,
+    botCommands,
     dicasBemVindo
 }
 
-const serverEntities = require('./scripts/entities/serverEntities');
-const dbManipulation = require('./scripts/dataBase/dbManipulation');
+const serverEntities = require('./src/entities/serverEntities');
+const dbManipulation = require('./src/dataBase/dbManipulation');
 
-const criadorDeImagens = require('./scripts/image/imageManipulation');
-const audioPorURL = require('./scripts/audio/audioManipulation');
+const criadorDeImagens = require('./src/image/imageManipulation');
+const audioPorURL = require('./src/audio/audioManipulation');
 
-const generalEmbeds = require('./scripts/generalEmbeds');
+const generalEmbeds = require('./src/generalEmbeds');
 
 async function dicasBemVindo(member) {
     generalEmbeds.dicasBemVindo(member);
 }
 
-async function execute(message) {
+async function botCommands(message) {
 
     // 635170515937656835 = ID do Chat de Texto: assinaturas
     if (message.channel.id === '635170515937656835') return;

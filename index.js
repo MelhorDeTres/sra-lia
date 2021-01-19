@@ -14,7 +14,7 @@ client.on("guildCreate", guild => {
 });
 
 client.on("message", async message => {
-    apiMD3.execute(message);
+    apiMD3.botCommands(message);
 });
 
 client.on("guildMemberAdd", async member => {
