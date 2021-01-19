@@ -18,8 +18,8 @@
   - [JavaScript](https://www.javascript.com/);
   - [MongoDB](https://www.mongodb.com);
   - [Canvas](https://canvas.instructure.com/doc/api/);
-- Como [rodar em sua máquina](SETBOT.md);
-- Tabela de [comandos](COMANDOS.md) da Sra. Lia;
+- Como [rodar em sua máquina](documentacao/SETBOT.md);
+- Tabela de [comandos](documentacao/COMANDOS.md) da Sra. Lia;
 - Mural de [idéias](https://www.notion.so/Bot-Sr-Lia-MD3-d6a627905612445dbfd0794c373c91c0);
 - Indicação de [Servidor Discord](https://discord.gg/ASwuvJr) para network;
 - Indicação de hospedagem na [DisCloud](https://discloudbot.com/);

@@ -14,9 +14,9 @@ async function criarFotoSteam(message) {
 
   const avatar = await Canvas.loadImage(await message.author.displayAvatarURL);
 
-  const black = await Canvas.loadImage('./imagens/auxiliares/preto.png');
+  const black = await Canvas.loadImage('./images/auxiliares/preto.png');
 
-  const logo = await Canvas.loadImage('./imagens/auxiliares/LogoMD3cSombra.png');
+  const logo = await Canvas.loadImage('./images/auxiliares/LogoMD3cSombra.png');
 
   ctx.drawImage(black, 0, 0, canvas.width, canvas.height);
 
@@ -34,7 +34,7 @@ async function criarFotoLaranja(message) {
 
   const ctx = canvas.getContext('2d');
 
-  const image = await Canvas.loadImage('./imagens/auxiliares/Laranja.jpg');
+  const image = await Canvas.loadImage('./images/auxiliares/Laranja.jpg');
 
   ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
 
@@ -48,7 +48,7 @@ async function criarFotoVerde(message) {
 
   const ctx = canvas.getContext('2d');
 
-  const image = await Canvas.loadImage('./imagens/auxiliares/Verde.jpg');
+  const image = await Canvas.loadImage('./images/auxiliares/Verde.jpg');
 
   ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
 
@@ -62,7 +62,7 @@ async function criarFotoAzul(message) {
 
   const ctx = canvas.getContext('2d');
 
-  const image = await Canvas.loadImage('./imagens/auxiliares/Azul.jpg');
+  const image = await Canvas.loadImage('./images/auxiliares/Azul.jpg');
 
   ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
 
@@ -76,7 +76,7 @@ async function criarFotoRosa(message) {
 
   const ctx = canvas.getContext('2d');
 
-  const image = await Canvas.loadImage('./imagens/auxiliares/Rosa.jpg');
+  const image = await Canvas.loadImage('./images/auxiliares/Rosa.jpg');
 
   ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
 
@@ -90,7 +90,7 @@ async function criarFotoAmarela(message) {
 
   const ctx = canvas.getContext('2d');
 
-  const image = await Canvas.loadImage('./imagens/auxiliares/Amarela.jpg');
+  const image = await Canvas.loadImage('./images/auxiliares/Amarela.jpg');
 
   ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
 
@@ -104,7 +104,7 @@ async function criarFotoMD3(message) {
 
   const ctx = canvas.getContext('2d');
 
-  const image = await Canvas.loadImage('./imagens/auxiliares/LogoMD3.png');
+  const image = await Canvas.loadImage('./images/auxiliares/LogoMD3.png');
 
   ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
 
