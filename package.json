@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GNU General Public License v3.0",
   "dependencies": {
     "@discordjs/opus": "^0.1.0",
     "canvas": "^2.6.1",

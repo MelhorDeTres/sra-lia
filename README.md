@@ -13,14 +13,19 @@
 
 ## :triangular_flag_on_post: Informações
 
-- UML (21/07/2020) <a href="/.github/uml.png">aqui</a>.
 - Tecnologias:
   - [JavaScript](https://www.javascript.com/);
   - [MongoDB](https://www.mongodb.com);
   - [Canvas](https://canvas.instructure.com/doc/api/);
-- Como [rodar em sua máquina](documentacao/SETBOT.md);
+  
+<br>
+
 - Tabela de [comandos](documentacao/COMANDOS.md) da Sra. Lia;
+- Como [rodar em sua máquina](documentacao/SETBOT.md);
 - Mural de [idéias](https://www.notion.so/Bot-Sr-Lia-MD3-d6a627905612445dbfd0794c373c91c0);
+
+<br>
+
 - Indicação de [Servidor Discord](https://discord.gg/ASwuvJr) para network;
 - Indicação de hospedagem na [DisCloud](https://discloudbot.com/);
 
