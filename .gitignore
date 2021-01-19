@@ -1,3 +1,9 @@
+# MD3 files
+config.json
+README.md
+/documentacao
+LICENSE.txt
+
 # Logs
 logs
 *.log
@@ -102,9 +108,3 @@ dist
 
 # TernJS port file
 .tern-port
-
-# MD3 files
-config.json
-README.md
-/documentacao
-LICENSE.txt
