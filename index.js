@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
 
-const apiMD3 = require('./apiMD3');
+const commandsController = require('./commandsController');
 
 client.on("ready", () => {
     console.log(`Bot foi iniciado, com ${client.users.size} Membros MD3`);
@@ -14,11 +14,11 @@ client.on("guildCreate", guild => {
 });
 
 client.on("message", async message => {
-    apiMD3.botCommands(message);
+    commandsController.botCommands(message);
 });
 
 client.on("guildMemberAdd", async member => {
-    apiMD3.dicasBemVindo(member);
+    commandsController.dicasBemVindo(member);
     client.user.setGame(`Estou disponível para ${client.users.size} players.`);
 });
 
