@@ -35,7 +35,6 @@ Released in 2020.
 This project is under the [GNU General Public License v3.0](https://github.com/ManoMax/BotDiscord/blob/master/LICENSE.txt).
 
 <p><i>
-  Thanks to everyone who passed through here.
   
 > *Contributors:* <br>
 > • *[@ManoMax](https://github.com/ManoMax)* <br>
@@ -44,4 +43,5 @@ This project is under the [GNU General Public License v3.0](https://github.com/M
 > • *[@RhianFelipe](https://github.com/RhianFelipe)* <br>
 > • *[@EuclidesRamos](https://github.com/EuclidesRamos)* <br>
 
+  *Thanks to everyone who passed through here.*
 </i></p>
