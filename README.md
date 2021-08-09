@@ -36,6 +36,12 @@ This project is under the [GNU General Public License v3.0](https://github.com/M
 
 <p><i>
   
-> *Thanks to everyone who passed through here.*
+> *Contributors:* <br>
+> • *[@ManoMax](https://github.com/ManoMax)* <br>
+> • *[@lucasminah](https://github.com/lucasminah)* <br>
+> • *[@ZacariasBecker](https://github.com/ZacariasBecker)* <br>
+> • *[@RhianFelipe](https://github.com/RhianFelipe)* <br>
+> • *[@EuclidesRamos](https://github.com/EuclidesRamos)* <br>
 
+  *Thanks to everyone who passed through here.*
 </i></p>
