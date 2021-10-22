@@ -43,5 +43,5 @@ This project is under the [GNU General Public License v3.0](https://github.com/M
 > • *[@RhianFelipe](https://github.com/RhianFelipe)* <br>
 > • *[@EuclidesRamos](https://github.com/EuclidesRamos)* <br>
 
-  *Thanks to everyone who passed through here.*
+  *Thanks to everyone who passed through here. *
 </i></p>
