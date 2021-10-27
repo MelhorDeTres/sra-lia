@@ -2,7 +2,8 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
 
-const commandsController = require('./commandsController');
+const commandsController = require('./src/controllers/commandsController');
+const embedscontroller = require('./src/controllers/embedscontroller');
 
 client.on("ready", () => {
     console.log(`Bot foi iniciado, com ${client.users.size} Membros MD3`);
@@ -18,7 +19,7 @@ client.on("message", async message => {
 });
 
 client.on("guildMemberAdd", async member => {
-    commandsController.dicasBemVindo(member);
+    embedscontroller.dicasBemVindo(member);
     client.user.setGame(`Estou disponível para ${client.users.size} players.`);
 });
 
