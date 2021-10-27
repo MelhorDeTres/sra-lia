@@ -1,19 +1,12 @@
 module.exports = {
-    botCommands,
-    dicasBemVindo
+    botCommands
 }
 
-const serverEntities = require('./src/entities/serverEntities');
-const dbManipulation = require('./src/dataBase/dbManipulation');
+const serverEntities = require('../entities/serverEntities');
+const dbManipulation = require('../dataBase/dbManipulation');
 
-const criadorDeImagens = require('./src/image/imageManipulation');
-const audioPorURL = require('./src/audio/audioManipulation');
-
-const generalEmbeds = require('./src/generalEmbeds');
-
-async function dicasBemVindo(member) {
-    generalEmbeds.dicasBemVindo(member);
-}
+const criadorDeImagens = require('../image/imageManipulation');
+const audioPorURL = require('../audio/audioManipulation');
 
 async function botCommands(message) {
 
