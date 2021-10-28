@@ -94,7 +94,7 @@ async function generalCommands(message) {
           }
         ]
       };
-    await message.author.send({embed});
+    await message.author.sendMessage({embed});
     // await message.channel.send({ embed });
 }
 
