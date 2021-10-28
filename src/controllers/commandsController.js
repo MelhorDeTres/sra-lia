@@ -8,6 +8,8 @@ const dbManipulation = require('../dataBase/dbManipulation');
 const criadorDeImagens = require('../image/imageManipulation');
 const audioPorURL = require('../audio/audioManipulation');
 
+const generalEmbeds = require('../generalEmbeds');
+
 async function verifyMessageChannel(message) {
     let valid = true;
     // 635170515937656835 = ID do Chat de Texto: assinaturas
