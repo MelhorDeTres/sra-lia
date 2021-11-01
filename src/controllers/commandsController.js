@@ -13,8 +13,8 @@ const generalEmbeds = require('../generalEmbeds');
 async function verifyMessageChannel(message) {
     let valid = true;
     // 635170515937656835 = ID do Chat de Texto: assinaturas
-    if (message.channel.id === '635170515937656835') return;
-    if (message.author.bot) return;
+    if (message.channel.id === '635170515937656835') valid = false;
+    if (message.author.bot) valid = false;
     if (message.channel.type === 'dm') {
         // await message.reply("\n\n**Para usar algum comando no Bot**\nUtilize o Chat <#709906204146794616>.");
         // await message.react("☑️");
