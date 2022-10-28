@@ -17,6 +17,7 @@
   - [JavaScript](https://www.javascript.com/);
   - [MongoDB](https://www.mongodb.com);
   - [Canvas](https://canvas.instructure.com/doc/api/);
+  - Discord API
   
 <br>
 
